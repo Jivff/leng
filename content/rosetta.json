@@ -1,0 +1,11 @@
+{
+  "lessonsPerUnit": 4,
+  "levels": { "ko": 3, "es": 5, "pt": 3, "zh": 5, "de": 5, "it": 5 },
+  "units": [
+    "Language Basics", "Greetings and Introductions", "Work and School", "Shopping",
+    "Travel", "Past and Future", "Friends and Social Life", "Dining and Vacation",
+    "Home and Health", "Life and World", "Everyday Things", "Places and Events",
+    "Tourism and Recreation", "Professions and Hobbies", "At Home and Around Town", "Style and Personal Wellness",
+    "Business and Industry", "Arts and Academics", "Emergency Situations", "Family and Community"
+  ]
+}

@@ -1,0 +1,225 @@
+{
+  "_format": "[kind (g grammar, v vocabulary, r reading, l listening), question, correct, wrong, wrong, passage or audio text]. Options are shuffled at run time.",
+  "ko": {
+    "A1": [
+      ["g","저는 학생___.","이에요","예요","있어요"],
+      ["g","저는 학교___ 가요.","에","를","이"],
+      ["v","'물' means:","water","fire","tree"],
+      ["r","Where does Minsu live?","Seoul","Busan","Tokyo","저는 민수입니다. 저는 회사원입니다. 서울에 삽니다."],
+      ["l","What is the speaker asking?","The time","The price","The way","지금 몇 시예요?"]
+    ],
+    "A2": [
+      ["g","어제 친구를 ___.","만났어요","만나요","만날 거예요"],
+      ["g","비가 ___ 집에 있었어요.","와서","오면","오려고"],
+      ["v","'약속' means:","appointment, promise","medicine","weekend"],
+      ["r","What did the writer think of the film?","Fun but too long","Boring and short","They did not watch it","주말에 친구와 영화를 봤습니다. 영화가 재미있었지만 너무 길었습니다."],
+      ["l","What does the speaker want to know?","Whether the bus goes to City Hall","What time the bus leaves","How much the bus costs","이 버스는 시청에 가요?"]
+    ],
+    "B1": [
+      ["g","한국에 ___ 지 2년이 됐어요.","온","오는","올"],
+      ["g","시간이 ___ 여행을 가고 싶어요.","있으면","있어서","있는데도"],
+      ["v","'경험' means:","experience","economy","competition"],
+      ["r","How does the writer feel about walking now?","It has become a habit","It is still too hard","They gave up","요즘 건강을 위해서 매일 아침 30분씩 걷기로 했습니다. 처음에는 힘들었는데 이제는 습관이 되었습니다."],
+      ["l","What happened to the meeting?","It was postponed to tomorrow","It was cancelled","It starts now","죄송하지만 회의가 내일로 연기되었습니다."]
+    ],
+    "B2": [
+      ["g","그 사람이 그런 말을 ___ 리가 없어요.","했을","하는데","하도록"],
+      ["g","일이 많은 ___ 주말에도 출근해야 했다.","탓에","덕분에","반면에"],
+      ["v","'영향을 미치다' means:","to have an influence","to make an effort","to reach an agreement"],
+      ["r","What downside is mentioned?","The line between work and life has blurred","Commutes have become longer","Salaries have fallen","재택근무가 늘어나면서 출퇴근 시간이 줄어든 반면, 일과 생활의 경계가 흐려졌다는 지적도 나오고 있다."],
+      ["l","What did the government decide?","To raise interest rates to curb inflation","To lower taxes","To increase exports","정부는 물가 상승을 억제하기 위해 금리를 인상하기로 결정했습니다."]
+    ],
+    "C1": [
+      ["g","그는 위험을 ___ 사람들을 구했다.","무릅쓰고","비롯해서","말미암아"],
+      ["g","말이 나온 ___ 그 문제도 짚고 넘어갑시다.","김에","탓에","채로"],
+      ["v","'불가피하다' means:","unavoidable","impossible","unacceptable"],
+      ["r","What do the experts warn?","Social costs will surge without a proactive response","Population ageing will soon stop","The labour market will be unaffected","전문가들은 인구 고령화가 노동 시장의 구조적 변화를 초래할 것이며, 이에 대한 선제적 대응이 없을 경우 사회적 비용이 급증할 것이라고 경고한다."],
+      ["l","What is the general view of the measure?","It may work short term but is not a fundamental solution","It is a perfect solution","It has already failed","이번 조치는 단기적으로는 효과가 있을지 몰라도 근본적인 해결책이 되기는 어렵다는 것이 중론입니다."]
+    ]
+  },
+  "es": {
+    "A1": [
+      ["g","Yo ___ estudiante.","soy","estoy","tengo"],
+      ["g","Ella ___ en Madrid.","vive","vivo","vives"],
+      ["v","'la tienda' means:","the store","the table","the street"],
+      ["r","What is Ana's job?","Teacher","Doctor","Student","Me llamo Ana. Soy profesora y trabajo en una escuela."],
+      ["l","What is the speaker asking?","Where the bathroom is","What time it is","How much it costs","¿Dónde está el baño?"]
+    ],
+    "A2": [
+      ["g","Ayer ___ al cine con mis amigos.","fui","voy","iré"],
+      ["g","Me ___ los zapatos rojos.","gustan","gusta","gusto"],
+      ["v","'barato' means:","cheap","broken","near"],
+      ["r","Why did the writer stay home?","It was raining","They were ill","They had to work","El domingo quería ir a la playa, pero llovió todo el día y me quedé en casa viendo películas."],
+      ["l","What does the speaker want?","A table for two","Two coffees","The bill","Buenas noches, ¿tiene una mesa para dos?"]
+    ],
+    "B1": [
+      ["g","Cuando era niño, ___ en un pueblo pequeño.","vivía","viví","he vivido"],
+      ["g","Espero que ___ un buen viaje.","tengas","tienes","tendrás"],
+      ["v","'aprovechar' means:","to make the most of","to approve","to try on"],
+      ["r","What changed for the writer?","They now work from home three days a week","They changed company","They moved abroad","Desde que cambié de horario, trabajo desde casa tres días a la semana, lo cual me permite pasar más tiempo con mi familia."],
+      ["l","What is the problem?","The flight is delayed two hours","The flight is cancelled","The luggage is lost","Lo sentimos, su vuelo lleva un retraso de dos horas."]
+    ],
+    "B2": [
+      ["g","Si ___ más tiempo, viajaría por todo el país.","tuviera","tendría","tengo"],
+      ["g","No creo que la propuesta ___ aprobada.","sea","es","será"],
+      ["v","'a pesar de' means:","in spite of","because of","instead of"],
+      ["r","What is the main concern?","Rents rise faster than wages","There are too few tourists","Too many homes stand empty","Aunque el turismo ha impulsado la economía local, los vecinos denuncian que los alquileres suben mucho más rápido que los salarios."],
+      ["l","What does the speaker suggest?","Postponing the decision until more data is available","Deciding immediately","Cancelling the project","Yo propondría que aplazáramos la decisión hasta que tengamos más datos."]
+    ],
+    "C1": [
+      ["g","De ___ sabido, no habría venido.","haberlo","haber","haya"],
+      ["g","Por mucho que ___, no lo convencerás.","insistas","insistes","insistirás"],
+      ["v","'estar en vilo' means:","to be on tenterhooks","to be in flight","to be in fashion"],
+      ["r","What is the author's stance?","The reform is necessary but poorly explained","The reform is pointless","The reform has been well communicated","Si bien la reforma resulta imprescindible, cabe reprocharle al gobierno que no haya sabido explicar a la ciudadanía ni su alcance ni sus costes."],
+      ["l","What does the speaker imply?","The outcome was predictable","The outcome was a surprise","The outcome is unknown","A nadie debería extrañarle el resultado; era de esperar que acabara así."]
+    ]
+  },
+  "pt": {
+    "A1": [
+      ["g","Eu ___ brasileiro.","sou","estou","tenho"],
+      ["g","Nós ___ em São Paulo.","moramos","moram","mora"],
+      ["v","'a loja' means:","the store","the moon","the street"],
+      ["r","Where does Pedro work?","In a hospital","In a school","In a shop","Meu nome é Pedro. Eu sou médico e trabalho em um hospital."],
+      ["l","What is the speaker asking?","Your name","Your age","Your address","Qual é o seu nome?"]
+    ],
+    "A2": [
+      ["g","Ontem eu ___ à praia.","fui","vou","irei"],
+      ["g","Ela está ___ um livro agora.","lendo","ler","lido"],
+      ["v","'barato' means:","cheap","boat","loud"],
+      ["r","What did the writer do on Saturday?","Went to a friend's birthday party","Worked all day","Stayed home","No sábado, eu fui à festa de aniversário de uma amiga. Tinha muita comida e a gente dançou a noite toda."],
+      ["l","What does the speaker want?","The bill","The menu","A table","A conta, por favor."]
+    ],
+    "B1": [
+      ["g","Quando eu era criança, ___ futebol todos os dias.","jogava","joguei","jogo"],
+      ["g","Espero que você ___ da festa.","goste","gosta","gostou"],
+      ["v","'aproveitar' means:","to enjoy, make the most of","to approve","to prove"],
+      ["r","Why does the writer prefer the bus now?","They can read on the way","It is faster","It is free","Antes eu ia de carro para o trabalho, mas agora prefiro pegar o ônibus porque posso ler no caminho."],
+      ["l","What is the problem?","The flight is delayed","The flight is full","The gate changed","Infelizmente, o seu voo está atrasado."]
+    ],
+    "B2": [
+      ["g","Se eu ___ mais dinheiro, compraria uma casa.","tivesse","teria","tenho"],
+      ["g","Quando você ___ em casa, me liga.","chegar","chega","chegou"],
+      ["v","'apesar de' means:","in spite of","because of","next to"],
+      ["r","What is the criticism?","Public transport did not keep up with the city's growth","The city stopped growing","Fares are too low","A cidade cresceu rapidamente na última década, porém o transporte público não acompanhou esse crescimento, o que gera críticas constantes."],
+      ["l","What does the speaker suggest?","Rescheduling the meeting for next week","Cancelling the meeting","Starting the meeting now","Que tal a gente remarcar a reunião para a semana que vem?"]
+    ],
+    "C1": [
+      ["g","Se eu ___ disso antes, teria agido de outra forma.","tivesse sabido","teria sabido","soubesse"],
+      ["g","Por mais que ele ___, não consegue convencer ninguém.","insista","insiste","insistiu"],
+      ["v","'dar o braço a torcer' means:","to admit you were wrong","to offer help","to twist the facts"],
+      ["r","What does the author argue?","Growth alone does not guarantee less inequality","Growth always reduces inequality","Inequality is no longer a problem","Embora o crescimento econômico seja condição necessária, ele não basta, por si só, para reduzir a desigualdade, que exige políticas específicas."],
+      ["l","What does the speaker imply?","They doubt the deadline will be met","The deadline was met","There is no deadline","Sinceramente, duvido muito que eles consigam cumprir o prazo."]
+    ]
+  },
+  "zh": {
+    "A1": [
+      ["g","我___学生。","是","很","在"],
+      ["g","你是老师___？","吗","呢","的"],
+      ["v","'水' means:","water","fire","mountain"],
+      ["r","What is Wang Ming's job?","Teacher","Doctor","Student","我叫王明。我是老师。我住在北京。"],
+      ["l","What is the speaker asking?","Your name","Your age","Where you live","你叫什么名字？"]
+    ],
+    "A2": [
+      ["g","我昨天买___一本书。","了","过","着"],
+      ["g","我想买一___衬衫。","件","本","个人"],
+      ["v","'便宜' means:","cheap","convenient","quick"],
+      ["r","How does the writer go to work?","By subway","By bus","On foot","我家离公司不远，我每天坐地铁上班，只要二十分钟。"],
+      ["l","What is the speaker asking?","The price","The time","The place","这个多少钱？"]
+    ],
+    "B1": [
+      ["g","请___门关上。","把","被","让"],
+      ["g","我的手机___小偷偷走了。","被","把","给了"],
+      ["v","'经验' means:","experience","economy","manager"],
+      ["r","Why does the writer want to move?","The rent is too high","The flat is too small","Work is too far","虽然我很喜欢现在住的地方，但是房租越来越贵，所以我打算明年搬家。"],
+      ["l","What happened?","The meeting was moved to tomorrow","The meeting was cancelled","The meeting is over","不好意思，会议改到明天了。"]
+    ],
+    "B2": [
+      ["g","___下雨，比赛也会照常进行。","即使","因为","既然"],
+      ["g","这个问题连专家___解决不了。","都","就","才"],
+      ["v","'影响' means:","influence","impression","response"],
+      ["r","What worry is mentioned?","Young people rely too much on phones","Phones are too expensive","Phones are too slow","随着智能手机的普及，人们的生活越来越方便，可是也有人担心年轻人过度依赖手机。"],
+      ["l","What was decided?","To raise prices next month","To lower prices","To close the shop","由于成本上涨，公司决定从下个月开始提高价格。"]
+    ],
+    "C1": [
+      ["g","他的建议___有道理，但实行起来很困难。","固然","既然","竟然"],
+      ["g","与其抱怨，___想办法解决。","不如","不但","不管"],
+      ["v","'不可避免' means:","unavoidable","unbelievable","incomparable"],
+      ["r","What do the experts point out?","Without timely measures, ageing will strain the pension system","Ageing has no economic effect","The pension system is already bankrupt","专家指出，如果不及时采取措施，人口老龄化将对养老金体系造成巨大压力。"],
+      ["l","What is the speaker's view?","The plan looks good but is hard to carry out","The plan is flawless","The plan has been abandoned","这个方案看似完美，实际上很难落实。"]
+    ]
+  },
+  "de": {
+    "A1": [
+      ["g","Ich ___ aus Frankreich.","komme","kommst","kommt"],
+      ["g","Das ist ___ Buch.","ein","eine","einen"],
+      ["v","'das Wasser' means:","the water","the weather","the week"],
+      ["r","Where does Anna work?","In a school","In a bank","In a hospital","Ich heiße Anna. Ich bin Lehrerin und arbeite in einer Schule."],
+      ["l","What is the speaker asking?","The time","The price","The way","Wie spät ist es?"]
+    ],
+    "A2": [
+      ["g","Gestern ___ ich ins Kino gegangen.","bin","habe","werde"],
+      ["g","Ich fahre mit ___ Zug.","dem","den","der"],
+      ["v","'billig' means:","cheap","funny","pretty"],
+      ["r","Why did the writer stay home?","They were ill","It was raining","They had visitors","Am Wochenende wollte ich wandern gehen, aber ich war krank und bin zu Hause geblieben."],
+      ["l","What does the speaker want?","A table for two","Two tickets","The bill","Guten Abend, haben Sie einen Tisch für zwei Personen?"]
+    ],
+    "B1": [
+      ["g","Ich bleibe zu Hause, weil ich krank ___.","bin","sein","bist"],
+      ["g","Wenn ich Zeit ___, würde ich mehr lesen.","hätte","habe","hatte"],
+      ["v","'die Erfahrung' means:","experience","invention","memory"],
+      ["r","Why does the writer cycle to work?","It is faster than driving in traffic","It is cheaper than the train","The car is broken","Seit ich in der Stadt wohne, fahre ich mit dem Fahrrad zur Arbeit, denn im Stau verliert man mit dem Auto viel Zeit."],
+      ["l","What is announced?","The train is twenty minutes late","The train is cancelled","The train is on time","Der Zug nach München hat heute zwanzig Minuten Verspätung."]
+    ],
+    "B2": [
+      ["g","Das Haus ___ letztes Jahr renoviert.","wurde","wird","würde"],
+      ["g","___ des schlechten Wetters fand das Konzert statt.","Trotz","Wegen","Während"],
+      ["v","'die Auswirkung' means:","effect, impact","selection","exception"],
+      ["r","What is the criticism?","Rents are rising faster than incomes","Too few flats are being built","Incomes are falling","Obwohl in der Stadt viel gebaut wird, steigen die Mieten deutlich schneller als die Einkommen, was viele Bewohner kritisieren."],
+      ["l","What does the speaker propose?","Postponing the decision","Deciding today","Dropping the project","Ich schlage vor, dass wir die Entscheidung auf nächste Woche verschieben."]
+    ],
+    "C1": [
+      ["g","Er tat so, als ___ er nichts gehört.","hätte","hat","habe gehabt"],
+      ["g","Die Regierung sieht sich ___, die Steuern zu erhöhen.","gezwungen","zwingend","zwingen"],
+      ["v","'unumgänglich' means:","unavoidable","unfriendly","unlimited"],
+      ["r","What is the author's view?","The reform is necessary but was badly communicated","The reform is unnecessary","The reform was well explained","Die Reform mag notwendig sein, doch hat es die Regierung versäumt, der Bevölkerung deren Tragweite verständlich zu vermitteln."],
+      ["l","What does the speaker imply?","The result was to be expected","The result is surprising","The result is unknown","Dass es so kommen würde, war im Grunde abzusehen."]
+    ]
+  },
+  "it": {
+    "A1": [
+      ["g","Io ___ italiano.","sono","ho","sto"],
+      ["g","Lei ___ a Roma.","abita","abito","abiti"],
+      ["v","'l'acqua' means:","water","air","wine"],
+      ["r","What is Marco's job?","Doctor","Teacher","Cook","Mi chiamo Marco. Sono medico e lavoro in un ospedale."],
+      ["l","What is the speaker asking?","The time","The price","The way","Che ore sono?"]
+    ],
+    "A2": [
+      ["g","Ieri ___ andato al cinema.","sono","ho","sto"],
+      ["g","Vado ___ ristorante con gli amici.","al","il","nel"],
+      ["v","'economico' means:","cheap","rich","busy"],
+      ["r","Why did the writer stay home?","It was raining","They were tired","They had work","Domenica volevo andare al mare, ma pioveva e sono rimasto a casa."],
+      ["l","What does the speaker want?","The bill","The menu","A coffee","Il conto, per favore."]
+    ],
+    "B1": [
+      ["g","Da bambino ___ sempre in giardino.","giocavo","ho giocato","gioco"],
+      ["g","Spero che tu ___ bene.","stia","stai","starai"],
+      ["v","'l'esperienza' means:","experience","experiment","expense"],
+      ["r","What changed for the writer?","They now take the train instead of driving","They changed job","They moved house","Prima andavo al lavoro in macchina, ma adesso prendo il treno perché così posso leggere durante il viaggio."],
+      ["l","What is announced?","The train is thirty minutes late","The train is cancelled","The train has arrived","Il treno per Milano viaggia con trenta minuti di ritardo."]
+    ],
+    "B2": [
+      ["g","Se ___ più tempo, viaggerei di più.","avessi","avrei","ho"],
+      ["g","Penso che la proposta ___ interessante.","sia","è","sarà"],
+      ["v","'nonostante' means:","despite","meanwhile","otherwise"],
+      ["r","What is the complaint?","Rents are rising faster than salaries","There are too few tourists","Shops are closing","Sebbene il turismo abbia aiutato l'economia, i residenti si lamentano perché gli affitti aumentano più in fretta degli stipendi."],
+      ["l","What does the speaker propose?","Postponing the meeting to next week","Cancelling the meeting","Meeting today","Proporrei di rimandare la riunione alla settimana prossima."]
+    ],
+    "C1": [
+      ["g","Se l'avessi saputo, non ___ venuto.","sarei","ero","fossi"],
+      ["g","Per quanto ___, non riuscirai a convincerlo.","insista","insisti","insisterai"],
+      ["v","'inevitabile' means:","unavoidable","invisible","unbelievable"],
+      ["r","What is the author's view?","The reform is needed but poorly explained","The reform is useless","The reform was clearly explained","Pur essendo indispensabile, la riforma è stata presentata in modo confuso, e il governo non ha saputo chiarirne né la portata né i costi."],
+      ["l","What does the speaker imply?","The result was predictable","The result was a shock","The result is unknown","C'era da aspettarselo: non poteva che finire così."]
+    ]
+  }
+}

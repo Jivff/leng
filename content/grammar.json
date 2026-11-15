@@ -1,0 +1,46 @@
+{
+  "ko": [
+    {"id":"ko-g1","unit":1,"title":"Topic and subject particles 은/는, 이/가","explain":"은/는 marks the topic (what the sentence is about); 이/가 marks the subject, often new information. Use 은 and 이 after a consonant, 는 and 가 after a vowel.","ex":[["저{는} 학생이에요.","I am a student."],["비{가} 와요.","It is raining."]]},
+    {"id":"ko-g2","unit":2,"title":"Object particle 을/를","explain":"을 (after a consonant) or 를 (after a vowel) marks the direct object of the verb.","ex":[["물{을} 마셔요.","I drink water."],["친구{를} 만나요.","I meet a friend."]]},
+    {"id":"ko-g3","unit":5,"title":"Place particles 에 and 에서","explain":"에 marks a destination or a place of existence; 에서 marks the place where an action happens.","ex":[["학교{에} 가요.","I go to school."],["도서관{에서} 공부해요.","I study at the library."]]},
+    {"id":"ko-g4","unit":6,"title":"Past tense 았/었어요","explain":"Add 았어요 after stems whose last vowel is ㅏ or ㅗ, 었어요 otherwise; 하다 becomes 했어요.","ex":[["어제 영화를 {봤어요}.","I watched a film yesterday."],["아침을 {먹었어요}.","I ate breakfast."]]},
+    {"id":"ko-g5","unit":6,"title":"Future (으)ㄹ 거예요","explain":"Stem + ㄹ 거예요 (vowel stem) or 을 거예요 (consonant stem) expresses a plan or a prediction.","ex":[["내일 친구를 {만날} 거예요.","I will meet a friend tomorrow."],["저녁에 책을 {읽을} 거예요.","I will read a book this evening."]]},
+    {"id":"ko-g6","unit":9,"title":"Reason 아/어서 and condition (으)면","explain":"아/어서 links a cause to its result (no tense marker before it). (으)면 means if or when.","ex":[["비가 {와서} 집에 있었어요.","It rained, so I stayed home."],["시간이 {있으면} 같이 가요.","If you have time, let's go together."]]}
+  ],
+  "es": [
+    {"id":"es-g1","unit":1,"title":"Ser vs estar","explain":"Ser is for identity, origin, profession and inherent traits; estar is for location, temporary states and the progressive.","ex":[["Yo {soy} estudiante.","I am a student."],["Madrid {está} en España.","Madrid is in Spain."]]},
+    {"id":"es-g2","unit":3,"title":"Present tense of regular verbs","explain":"-ar: o, as, a, amos, áis, an. -er: o, es, e, emos, éis, en. -ir: o, es, e, imos, ís, en. Latin America uses ustedes instead of vosotros.","ex":[["Nosotros {hablamos} español.","We speak Spanish."],["Ella {vive} en Lima.","She lives in Lima."]]},
+    {"id":"es-g3","unit":6,"title":"Preterite vs imperfect","explain":"Preterite for completed, bounded events; imperfect for background, habits and ongoing past states.","ex":[["Ayer {fui} al mercado.","Yesterday I went to the market."],["Cuando era niño, {jugaba} en la calle.","When I was a child, I used to play in the street."]]},
+    {"id":"es-g4","unit":8,"title":"Object pronouns","explain":"Direct: lo, la, los, las. Indirect: le, les (se before lo/la). They go before a conjugated verb or attach to an infinitive.","ex":[["¿El libro? Ya {lo} leí.","The book? I already read it."],["{Le} di las llaves a María.","I gave the keys to María."]]},
+    {"id":"es-g5","unit":10,"title":"Present subjunctive after wishes and doubt","explain":"After querer que, esperar que, es posible que, etc., the second verb takes the subjunctive.","ex":[["Quiero que {vengas} a mi fiesta.","I want you to come to my party."],["Espero que {tengas} un buen día.","I hope you have a good day."]]},
+    {"id":"es-g6","unit":13,"title":"Por vs para","explain":"Para: purpose, destination, deadline, recipient. Por: cause, duration, exchange, movement through.","ex":[["Este regalo es {para} ti.","This gift is for you."],["Gracias {por} tu ayuda.","Thank you for your help."]]}
+  ],
+  "pt": [
+    {"id":"pt-g1","unit":1,"title":"Ser vs estar","explain":"Ser for identity, origin and permanent traits; estar for location of movable things, temporary states and the progressive.","ex":[["Eu {sou} brasileiro.","I am Brazilian."],["Ela {está} cansada hoje.","She is tired today."]]},
+    {"id":"pt-g2","unit":2,"title":"Contractions of prepositions with articles","explain":"em + o/a = no/na; de + o/a = do/da; a + o/a = ao/à; por + o/a = pelo/pela.","ex":[["Eu moro {no} Brasil.","I live in Brazil."],["Vou {ao} mercado.","I am going to the market."]]},
+    {"id":"pt-g3","unit":3,"title":"Present progressive with estar + gerund","explain":"Brazilian Portuguese uses estar + -ando / -endo / -indo for actions in progress.","ex":[["Estou {estudando} português.","I am studying Portuguese."],["Eles estão {comendo} agora.","They are eating now."]]},
+    {"id":"pt-g4","unit":6,"title":"Pretérito perfeito","explain":"Completed past. -ar: ei, ou, amos, aram. -er: i, eu, emos, eram. -ir: i, iu, imos, iram. Ir and ser share fui, foi, fomos, foram.","ex":[["Ontem eu {fui} à praia.","Yesterday I went to the beach."],["Ela {comprou} um carro.","She bought a car."]]},
+    {"id":"pt-g5","unit":6,"title":"Near future with ir + infinitive","explain":"The everyday future is ir (vou, vai, vamos, vão) + infinitive.","ex":[["Amanhã eu {vou} trabalhar.","Tomorrow I am going to work."],["Nós {vamos} viajar em julho.","We are going to travel in July."]]},
+    {"id":"pt-g6","unit":10,"title":"Present subjunctive","explain":"After querer que, esperar que, talvez, é importante que: -ar verbs take -e, -er/-ir verbs take -a.","ex":[["Espero que você {goste} do presente.","I hope you like the gift."],["Quero que você {venha} comigo.","I want you to come with me."]]}
+  ],
+  "zh": [
+    {"id":"zh-g1","unit":1,"title":"是 for identity, 很 with adjectives","explain":"是 links two nouns. Adjectives act as predicates without 是; a neutral statement usually takes 很.","ex":[["我{是}学生。","I am a student."],["她{很}高兴。","She is happy."]]},
+    {"id":"zh-g2","unit":2,"title":"Questions with 吗 and 呢","explain":"吗 at the end turns a statement into a yes/no question. 呢 bounces a question back: and you?","ex":[["你是老师{吗}？","Are you a teacher?"],["我很好，你{呢}？","I am fine, and you?"]]},
+    {"id":"zh-g3","unit":3,"title":"Measure words","explain":"A number or 这/那 needs a measure word before the noun: 个 (general), 本 (books), 件 (clothes, matters), 杯 (cups).","ex":[["我有三{本}书。","I have three books."],["我想买一{件}衬衫。","I want to buy a shirt."]]},
+    {"id":"zh-g4","unit":5,"title":"Location with 在","explain":"在 + place comes before the verb to say where an action happens; on its own it means to be at.","ex":[["我{在}医院工作。","I work at a hospital."],["他{在}家。","He is at home."]]},
+    {"id":"zh-g5","unit":6,"title":"Completed action 了 and experience 过","explain":"了 after a verb marks completion. 过 after a verb marks having had the experience at some time.","ex":[["我昨天买{了}一本书。","I bought a book yesterday."],["我去{过}北京。","I have been to Beijing."]]},
+    {"id":"zh-g6","unit":9,"title":"The 把 construction","explain":"Subject + 把 + object + verb + result. It stresses what is done to the object.","ex":[["请{把}门关上。","Please close the door."],["我{把}钥匙忘在家里了。","I left my keys at home."]]}
+  ],
+  "de": [
+    {"id":"de-g1","unit":1,"title":"Present tense and verb second","explain":"Regular endings: -e, -st, -t, -en, -t, -en. The conjugated verb is always the second element of a main clause.","ex":[["Ich {wohne} in Berlin.","I live in Berlin."],["Heute {arbeitet} sie zu Hause.","Today she is working at home."]]},
+    {"id":"de-g2","unit":4,"title":"Accusative case","explain":"The direct object takes the accusative: only masculine changes (der → den, ein → einen).","ex":[["Ich kaufe {den} Mantel.","I am buying the coat."],["Er hat {einen} Bruder.","He has a brother."]]},
+    {"id":"de-g3","unit":6,"title":"Perfekt with haben or sein","explain":"Spoken past: haben/sein + past participle at the end. Sein with verbs of movement or change of state.","ex":[["Ich {habe} ein Buch gelesen.","I read a book."],["Wir {sind} nach Wien gefahren.","We went to Vienna."]]},
+    {"id":"de-g4","unit":9,"title":"Dative after certain prepositions","explain":"aus, bei, mit, nach, seit, von, zu always take the dative: dem, der, dem, den (+n).","ex":[["Ich fahre mit {dem} Zug.","I am going by train."],["Sie wohnt bei {ihrer} Tante.","She lives with her aunt."]]}
+  ],
+  "it": [
+    {"id":"it-g1","unit":1,"title":"Essere and avere","explain":"Essere: sono, sei, è, siamo, siete, sono. Avere: ho, hai, ha, abbiamo, avete, hanno. Age and hunger use avere.","ex":[["Io {sono} italiano.","I am Italian."],["Lei {ha} trent'anni.","She is thirty years old."]]},
+    {"id":"it-g2","unit":2,"title":"Definite articles","explain":"il / lo / l' / la in the singular; i / gli / le in the plural. Lo and gli before s + consonant, z, gn, ps.","ex":[["{Lo} studente legge.","The student reads."],["{Gli} amici arrivano domani.","The friends arrive tomorrow."]]},
+    {"id":"it-g3","unit":6,"title":"Passato prossimo","explain":"avere or essere + past participle. With essere the participle agrees with the subject.","ex":[["Ieri {ho} mangiato la pizza.","Yesterday I ate pizza."],["Maria è {andata} al mercato.","Maria went to the market."]]},
+    {"id":"it-g4","unit":8,"title":"Articulated prepositions","explain":"di, a, da, in, su combine with the article: del, al, dal, nel, sul and their feminine and plural forms.","ex":[["Vado {al} ristorante.","I am going to the restaurant."],["Il libro è {sul} tavolo.","The book is on the table."]]}
+  ]
+}

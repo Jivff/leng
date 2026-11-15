@@ -1,0 +1,169 @@
+# id|unit|type|en|ko|es|pt|zh|de|it      (type v=vocab s=sentence; es: spain~latam when they differ; zh: simplified~pinyin~traditional)
+c001|1|v|hello|안녕하세요|hola|olá|你好~nǐ hǎo|hallo|ciao
+c002|1|v|goodbye|안녕히 가세요|adiós|tchau|再见~zàijiàn~再見|auf Wiedersehen|arrivederci
+c003|1|v|man|남자|el hombre|o homem|男人~nánrén|der Mann|l'uomo
+c004|1|v|woman|여자|la mujer|a mulher|女人~nǚrén|die Frau|la donna
+c005|1|v|water|물|el agua|a água|水~shuǐ|das Wasser|l'acqua
+c006|1|v|to eat|먹다|comer|comer|吃~chī|essen|mangiare
+c007|1|v|to drink|마시다|beber~tomar|beber|喝~hē|trinken|bere
+c008|1|v|to read|읽다|leer|ler|读~dú~讀|lesen|leggere
+c009|1|s|The woman drinks water.|여자가 물을 마셔요.|La mujer bebe agua.|A mulher bebe água.|女人喝水。~nǚrén hē shuǐ|Die Frau trinkt Wasser.|La donna beve acqua.
+c010|1|s|The boy is reading a book.|남자아이가 책을 읽고 있어요.|El niño está leyendo un libro.|O menino está lendo um livro.|男孩在看书。~nánhái zài kàn shū~男孩在看書。|Der Junge liest ein Buch.|Il bambino sta leggendo un libro.
+c011|2|v|thank you|감사합니다|gracias|obrigado|谢谢~xièxie~謝謝|danke|grazie
+c012|2|v|please|주세요|por favor|por favor|请~qǐng~請|bitte|per favore
+c013|2|v|yes|네|sí|sim|是~shì|ja|sì
+c014|2|v|no|아니요|no|não|不~bù|nein|no
+c015|2|v|name|이름|el nombre|o nome|名字~míngzi|der Name|il nome
+c016|2|v|friend|친구|el amigo|o amigo|朋友~péngyou|der Freund|l'amico
+c017|2|v|family|가족|la familia|a família|家人~jiārén|die Familie|la famiglia
+c018|2|v|to live (reside)|살다|vivir|morar|住~zhù|wohnen|abitare
+c019|2|s|What is your name?|이름이 뭐예요?|¿Cómo te llamas?|Qual é o seu nome?|你叫什么名字？~nǐ jiào shénme míngzi~你叫什麼名字？|Wie heißt du?|Come ti chiami?
+c020|2|s|Nice to meet you.|만나서 반갑습니다.|Mucho gusto.|Prazer em conhecer você.|很高兴认识你。~hěn gāoxìng rènshi nǐ~很高興認識你。|Freut mich, dich kennenzulernen.|Piacere di conoscerti.
+c021|3|v|to work|일하다|trabajar|trabalhar|工作~gōngzuò|arbeiten|lavorare
+c022|3|v|school|학교|la escuela|a escola|学校~xuéxiào~學校|die Schule|la scuola
+c023|3|v|teacher|선생님|el profesor|o professor|老师~lǎoshī~老師|der Lehrer|l'insegnante
+c024|3|v|student|학생|el estudiante|o estudante|学生~xuésheng~學生|der Schüler|lo studente
+c025|3|v|book|책|el libro|o livro|书~shū~書|das Buch|il libro
+c026|3|v|today|오늘|hoy|hoje|今天~jīntiān|heute|oggi
+c027|3|v|tomorrow|내일|mañana|amanhã|明天~míngtiān|morgen|domani
+c028|3|v|hospital|병원|el hospital|o hospital|医院~yīyuàn~醫院|das Krankenhaus|l'ospedale
+c029|3|s|I work at a hospital.|저는 병원에서 일해요.|Trabajo en un hospital.|Eu trabalho em um hospital.|我在医院工作。~wǒ zài yīyuàn gōngzuò~我在醫院工作。|Ich arbeite in einem Krankenhaus.|Lavoro in un ospedale.
+c030|3|s|What time is it?|지금 몇 시예요?|¿Qué hora es?|Que horas são?|现在几点？~xiànzài jǐ diǎn~現在幾點？|Wie spät ist es?|Che ore sono?
+c031|4|v|to buy|사다|comprar|comprar|买~mǎi~買|kaufen|comprare
+c032|4|v|money|돈|el dinero|o dinheiro|钱~qián~錢|das Geld|i soldi
+c033|4|v|store|가게|la tienda|a loja|商店~shāngdiàn|das Geschäft|il negozio
+c034|4|v|expensive|비싸다|caro|caro|贵~guì~貴|teuer|caro
+c035|4|v|cheap|싸다|barato|barato|便宜~piányi|billig|economico
+c036|4|v|clothes|옷|la ropa|a roupa|衣服~yīfu|die Kleidung|i vestiti
+c037|4|v|to want|원하다|querer|querer|想要~xiǎngyào|wollen|volere
+c038|4|v|shoes|신발|los zapatos|os sapatos|鞋子~xiézi|die Schuhe|le scarpe
+c039|4|s|How much does this cost?|이거 얼마예요?|¿Cuánto cuesta esto?|Quanto custa isto?|这个多少钱？~zhège duōshao qián~這個多少錢？|Wie viel kostet das?|Quanto costa questo?
+c040|4|s|I want to buy a shirt.|셔츠를 사고 싶어요.|Quiero comprar una camisa.|Eu quero comprar uma camisa.|我想买一件衬衫。~wǒ xiǎng mǎi yí jiàn chènshān~我想買一件襯衫。|Ich möchte ein Hemd kaufen.|Voglio comprare una camicia.
+c041|5|v|train|기차|el tren|o trem|火车~huǒchē~火車|der Zug|il treno
+c042|5|v|airport|공항|el aeropuerto|o aeroporto|机场~jīchǎng~機場|der Flughafen|l'aeroporto
+c043|5|v|ticket|표|el billete~el boleto|a passagem|票~piào|die Fahrkarte|il biglietto
+c044|5|v|hotel|호텔|el hotel|o hotel|酒店~jiǔdiàn|das Hotel|l'albergo
+c045|5|v|left|왼쪽|la izquierda|a esquerda|左边~zuǒbian~左邊|links|sinistra
+c046|5|v|right|오른쪽|la derecha|a direita|右边~yòubian~右邊|rechts|destra
+c047|5|v|to go|가다|ir|ir|去~qù|gehen|andare
+c048|5|v|where|어디|dónde|onde|哪里~nǎlǐ~哪裡|wo|dove
+c049|5|s|Where is the train station?|기차역이 어디에 있어요?|¿Dónde está la estación de tren?|Onde fica a estação de trem?|火车站在哪里？~huǒchēzhàn zài nǎlǐ~火車站在哪裡？|Wo ist der Bahnhof?|Dov'è la stazione?
+c050|5|s|Go straight and turn left.|직진해서 왼쪽으로 가세요.|Siga recto y gire a la izquierda.~Siga derecho y doble a la izquierda.|Siga em frente e vire à esquerda.|一直走，然后左转。~yìzhí zǒu, ránhòu zuǒ zhuǎn~一直走，然後左轉。|Gehen Sie geradeaus und biegen Sie links ab.|Vada dritto e giri a sinistra.
+c051|6|v|yesterday|어제|ayer|ontem|昨天~zuótiān|gestern|ieri
+c052|6|v|week|주|la semana|a semana|星期~xīngqī|die Woche|la settimana
+c053|6|v|month|달|el mes|o mês|月~yuè|der Monat|il mese
+c054|6|v|year|년|el año|o ano|年~nián|das Jahr|l'anno
+c055|6|v|to write|쓰다|escribir|escrever|写~xiě~寫|schreiben|scrivere
+c056|6|v|to give|주다|dar|dar|给~gěi~給|geben|dare
+c057|6|v|to send|보내다|enviar|enviar|寄~jì|schicken|mandare
+c058|6|v|letter (mail)|편지|la carta|a carta|信~xìn|der Brief|la lettera
+c059|6|s|I went to the market yesterday.|어제 시장에 갔어요.|Ayer fui al mercado.|Ontem eu fui ao mercado.|我昨天去了市场。~wǒ zuótiān qù le shìchǎng~我昨天去了市場。|Gestern bin ich zum Markt gegangen.|Ieri sono andato al mercato.
+c060|6|s|I will travel next year.|내년에 여행을 갈 거예요.|Voy a viajar el año que viene.|Vou viajar no ano que vem.|我明年要去旅行。~wǒ míngnián yào qù lǚxíng|Nächstes Jahr werde ich reisen.|L'anno prossimo viaggerò.
+c061|7|v|party|파티|la fiesta|a festa|派对~pàiduì~派對|die Party|la festa
+c062|7|v|to call (phone)|전화하다|llamar|ligar|打电话~dǎ diànhuà~打電話|anrufen|telefonare
+c063|7|v|to invite|초대하다|invitar|convidar|邀请~yāoqǐng~邀請|einladen|invitare
+c064|7|v|to dance|춤추다|bailar|dançar|跳舞~tiàowǔ|tanzen|ballare
+c065|7|v|music|음악|la música|a música|音乐~yīnyuè~音樂|die Musik|la musica
+c066|7|v|happy|행복하다|feliz|feliz|快乐~kuàilè~快樂|glücklich|felice
+c067|7|v|late|늦다|tarde|tarde|晚~wǎn|spät|tardi
+c068|7|v|together|같이|juntos|juntos|一起~yìqǐ|zusammen|insieme
+c069|7|s|Do you want to come to my party?|제 파티에 올래요?|¿Quieres venir a mi fiesta?|Você quer vir à minha festa?|你想来我的派对吗？~nǐ xiǎng lái wǒ de pàiduì ma~你想來我的派對嗎？|Willst du zu meiner Party kommen?|Vuoi venire alla mia festa?
+c070|7|s|Sorry, I am late.|늦어서 죄송합니다.|Perdón, llego tarde.|Desculpe, estou atrasado.|对不起，我迟到了。~duìbuqǐ, wǒ chídào le~對不起，我遲到了。|Entschuldigung, ich bin zu spät.|Scusa, sono in ritardo.
+c071|8|v|restaurant|식당|el restaurante|o restaurante|餐厅~cāntīng~餐廳|das Restaurant|il ristorante
+c072|8|v|menu|메뉴|el menú|o cardápio|菜单~càidān~菜單|die Speisekarte|il menù
+c073|8|v|bill (check)|계산서|la cuenta|a conta|账单~zhàngdān~賬單|die Rechnung|il conto
+c074|8|v|delicious|맛있다|delicioso|delicioso|好吃~hǎochī|lecker|delizioso
+c075|8|v|beach|해변|la playa|a praia|海滩~hǎitān~海灘|der Strand|la spiaggia
+c076|8|v|mountain|산|la montaña|a montanha|山~shān|der Berg|la montagna
+c077|8|v|to swim|수영하다|nadar|nadar|游泳~yóuyǒng|schwimmen|nuotare
+c078|8|v|vacation|휴가|las vacaciones|as férias|假期~jiàqī|der Urlaub|le vacanze
+c079|8|s|The bill, please.|계산서 주세요.|La cuenta, por favor.|A conta, por favor.|请结账。~qǐng jiézhàng~請結賬。|Die Rechnung, bitte.|Il conto, per favore.
+c080|8|s|I would like to order the fish.|생선을 주문하고 싶어요.|Quisiera pedir el pescado.|Eu gostaria de pedir o peixe.|我想点鱼。~wǒ xiǎng diǎn yú~我想點魚。|Ich möchte den Fisch bestellen.|Vorrei ordinare il pesce.
+c081|9|v|house|집|la casa|a casa|房子~fángzi|das Haus|la casa
+c082|9|v|kitchen|부엌|la cocina|a cozinha|厨房~chúfáng~廚房|die Küche|la cucina
+c083|9|v|bedroom|침실|el dormitorio|o quarto|卧室~wòshì~臥室|das Schlafzimmer|la camera da letto
+c084|9|v|doctor|의사|el médico|o médico|医生~yīshēng~醫生|der Arzt|il medico
+c085|9|v|head|머리|la cabeza|a cabeça|头~tóu~頭|der Kopf|la testa
+c086|9|v|sick|아프다|enfermo|doente|生病~shēngbìng|krank|malato
+c087|9|v|medicine|약|la medicina|o remédio|药~yào~藥|das Medikament|la medicina
+c088|9|v|to sleep|자다|dormir|dormir|睡觉~shuìjiào~睡覺|schlafen|dormire
+c089|9|s|My head hurts.|머리가 아파요.|Me duele la cabeza.|Estou com dor de cabeça.|我头疼。~wǒ tóu téng~我頭疼。|Mein Kopf tut weh.|Mi fa male la testa.
+c090|9|s|You should rest.|쉬어야 해요.|Deberías descansar.|Você deveria descansar.|你应该休息。~nǐ yīnggāi xiūxi~你應該休息。|Du solltest dich ausruhen.|Dovresti riposare.
+c091|10|v|country|나라|el país|o país|国家~guójiā~國家|das Land|il paese
+c092|10|v|language|언어|el idioma|o idioma|语言~yǔyán~語言|die Sprache|la lingua
+c093|10|v|world|세계|el mundo|o mundo|世界~shìjiè|die Welt|il mondo
+c094|10|v|weather|날씨|el tiempo~el clima|o tempo|天气~tiānqì~天氣|das Wetter|il tempo
+c095|10|v|rain|비|la lluvia|a chuva|雨~yǔ|der Regen|la pioggia
+c096|10|v|to be born|태어나다|nacer|nascer|出生~chūshēng|geboren werden|nascere
+c097|10|v|to get married|결혼하다|casarse|casar-se|结婚~jiéhūn~結婚|heiraten|sposarsi
+c098|10|v|to believe|믿다|creer|acreditar|相信~xiāngxìn|glauben|credere
+c099|10|s|Where were you born?|어디에서 태어났어요?|¿Dónde naciste?|Onde você nasceu?|你在哪里出生？~nǐ zài nǎlǐ chūshēng~你在哪裡出生？|Wo bist du geboren?|Dove sei nato?
+c100|10|s|It is going to rain tomorrow.|내일 비가 올 거예요.|Mañana va a llover.|Amanhã vai chover.|明天会下雨。~míngtiān huì xià yǔ~明天會下雨。|Morgen wird es regnen.|Domani pioverà.
+c101|11|v|key|열쇠|la llave|a chave|钥匙~yàoshi~鑰匙|der Schlüssel|la chiave
+c102|11|v|phone|전화기|el teléfono|o telefone|手机~shǒujī~手機|das Telefon|il telefono
+c103|11|v|computer|컴퓨터|el ordenador~la computadora|o computador|电脑~diànnǎo~電腦|der Computer|il computer
+c104|11|v|to forget|잊다|olvidar|esquecer|忘记~wàngjì~忘記|vergessen|dimenticare
+c105|11|v|to remember|기억하다|recordar|lembrar|记得~jìde~記得|sich erinnern|ricordare
+c106|11|v|to look for|찾다|buscar|procurar|找~zhǎo|suchen|cercare
+c107|11|v|to need|필요하다|necesitar|precisar|需要~xūyào|brauchen|avere bisogno
+c108|11|v|to use|사용하다|usar|usar|用~yòng|benutzen|usare
+c109|11|s|I forgot my keys.|열쇠를 잊어버렸어요.|Olvidé mis llaves.|Esqueci as minhas chaves.|我忘了带钥匙。~wǒ wàng le dài yàoshi~我忘了帶鑰匙。|Ich habe meine Schlüssel vergessen.|Ho dimenticato le chiavi.
+c110|11|s|Can you help me?|도와줄 수 있어요?|¿Puedes ayudarme?|Você pode me ajudar?|你能帮我吗？~nǐ néng bāng wǒ ma~你能幫我嗎？|Kannst du mir helfen?|Puoi aiutarmi?
+c111|12|v|bank|은행|el banco|o banco|银行~yínháng~銀行|die Bank|la banca
+c112|12|v|library|도서관|la biblioteca|a biblioteca|图书馆~túshūguǎn~圖書館|die Bibliothek|la biblioteca
+c113|12|v|museum|박물관|el museo|o museu|博物馆~bówùguǎn~博物館|das Museum|il museo
+c114|12|v|to open|열다|abrir|abrir|开~kāi~開|öffnen|aprire
+c115|12|v|to close|닫다|cerrar|fechar|关~guān~關|schließen|chiudere
+c116|12|v|concert|콘서트|el concierto|o show|音乐会~yīnyuèhuì~音樂會|das Konzert|il concerto
+c117|12|v|street|길|la calle|a rua|街~jiē|die Straße|la strada
+c118|12|v|to wait|기다리다|esperar|esperar|等~děng|warten|aspettare
+c119|12|s|The museum opens at nine.|박물관은 아홉 시에 열어요.|El museo abre a las nueve.|O museu abre às nove.|博物馆九点开门。~bówùguǎn jiǔ diǎn kāimén~博物館九點開門。|Das Museum öffnet um neun.|Il museo apre alle nove.
+c120|12|s|I have been waiting for an hour.|한 시간 동안 기다리고 있어요.|Llevo una hora esperando.|Estou esperando há uma hora.|我等了一个小时了。~wǒ děng le yí gè xiǎoshí le~我等了一個小時了。|Ich warte seit einer Stunde.|Aspetto da un'ora.
+c121|13|v|tourist|관광객|el turista|o turista|游客~yóukè~遊客|der Tourist|il turista
+c122|13|v|guide|가이드|el guía|o guia|导游~dǎoyóu~導遊|der Reiseführer|la guida
+c123|13|v|to visit|방문하다|visitar|visitar|参观~cānguān~參觀|besuchen|visitare
+c124|13|v|to rent|빌리다|alquilar~rentar|alugar|租~zū|mieten|affittare
+c125|13|v|to recommend|추천하다|recomendar|recomendar|推荐~tuījiàn~推薦|empfehlen|consigliare
+c126|13|s|Can you recommend a good restaurant?|좋은 식당을 추천해 줄 수 있어요?|¿Puede recomendarme un buen restaurante?|Você pode me recomendar um bom restaurante?|你能推荐一家好餐厅吗？~nǐ néng tuījiàn yì jiā hǎo cāntīng ma~你能推薦一家好餐廳嗎？|Können Sie ein gutes Restaurant empfehlen?|Può consigliarmi un buon ristorante?
+c127|14|v|profession|직업|la profesión|a profissão|职业~zhíyè~職業|der Beruf|la professione
+c128|14|v|engineer|엔지니어|el ingeniero|o engenheiro|工程师~gōngchéngshī~工程師|der Ingenieur|l'ingegnere
+c129|14|v|to cook|요리하다|cocinar|cozinhar|做饭~zuòfàn~做飯|kochen|cucinare
+c130|14|v|to paint|그리다|pintar|pintar|画画~huàhuà~畫畫|malen|dipingere
+c131|14|v|experience|경험|la experiencia|a experiência|经验~jīngyàn~經驗|die Erfahrung|l'esperienza
+c132|14|s|I have worked as an engineer for five years.|5년 동안 엔지니어로 일했어요.|He trabajado como ingeniero durante cinco años.|Trabalho como engenheiro há cinco anos.|我当工程师五年了。~wǒ dāng gōngchéngshī wǔ nián le~我當工程師五年了。|Ich arbeite seit fünf Jahren als Ingenieur.|Lavoro come ingegnere da cinque anni.
+c133|15|v|neighbor|이웃|el vecino|o vizinho|邻居~línjū~鄰居|der Nachbar|il vicino
+c134|15|v|to repair|고치다|reparar|consertar|修理~xiūlǐ|reparieren|riparare
+c135|15|v|to clean|청소하다|limpiar|limpar|打扫~dǎsǎo~打掃|putzen|pulire
+c136|15|v|furniture|가구|los muebles|os móveis|家具~jiājù~傢俱|die Möbel|i mobili
+c137|15|v|traffic|교통|el tráfico|o trânsito|交通~jiāotōng|der Verkehr|il traffico
+c138|15|s|The washing machine is broken.|세탁기가 고장 났어요.|La lavadora está estropeada.~La lavadora está descompuesta.|A máquina de lavar está quebrada.|洗衣机坏了。~xǐyījī huài le~洗衣機壞了。|Die Waschmaschine ist kaputt.|La lavatrice è rotta.
+c139|16|v|hair|머리카락|el pelo~el cabello|o cabelo|头发~tóufa~頭髮|die Haare|i capelli
+c140|16|v|exercise|운동|el ejercicio|o exercício|运动~yùndòng~運動|der Sport|l'esercizio
+c141|16|v|healthy|건강하다|sano~saludable|saudável|健康~jiànkāng|gesund|sano
+c142|16|v|to wear|입다|llevar~usar|vestir|穿~chuān|tragen|indossare
+c143|16|v|stress|스트레스|el estrés|o estresse|压力~yālì~壓力|der Stress|lo stress
+c144|16|s|I try to exercise three times a week.|일주일에 세 번 운동하려고 해요.|Intento hacer ejercicio tres veces por semana.|Tento fazer exercício três vezes por semana.|我尽量每周运动三次。~wǒ jǐnliàng měi zhōu yùndòng sān cì~我盡量每週運動三次。|Ich versuche, dreimal pro Woche Sport zu treiben.|Cerco di fare esercizio tre volte alla settimana.
+c145|17|v|company|회사|la empresa|a empresa|公司~gōngsī|die Firma|l'azienda
+c146|17|v|meeting|회의|la reunión|a reunião|会议~huìyì~會議|die Besprechung|la riunione
+c147|17|v|customer|고객|el cliente|o cliente|客户~kèhù~客戶|der Kunde|il cliente
+c148|17|v|contract|계약|el contrato|o contrato|合同~hétong|der Vertrag|il contratto
+c149|17|v|to sell|팔다|vender|vender|卖~mài~賣|verkaufen|vendere
+c150|17|s|The meeting has been postponed until Monday.|회의가 월요일로 연기되었습니다.|La reunión se ha aplazado hasta el lunes.~La reunión se pospuso hasta el lunes.|A reunião foi adiada para segunda-feira.|会议推迟到星期一了。~huìyì tuīchí dào xīngqīyī le~會議推遲到星期一了。|Die Besprechung wurde auf Montag verschoben.|La riunione è stata rimandata a lunedì.
+c151|18|v|art|예술|el arte|a arte|艺术~yìshù~藝術|die Kunst|l'arte
+c152|18|v|history|역사|la historia|a história|历史~lìshǐ~歷史|die Geschichte|la storia
+c153|18|v|science|과학|la ciencia|a ciência|科学~kēxué~科學|die Wissenschaft|la scienza
+c154|18|v|university|대학교|la universidad|a universidade|大学~dàxué~大學|die Universität|l'università
+c155|18|v|to learn|배우다|aprender|aprender|学习~xuéxí~學習|lernen|imparare
+c156|18|s|She is studying history at university.|그녀는 대학교에서 역사를 공부하고 있어요.|Ella estudia historia en la universidad.|Ela estuda história na universidade.|她在大学学习历史。~tā zài dàxué xuéxí lìshǐ~她在大學學習歷史。|Sie studiert Geschichte an der Universität.|Lei studia storia all'università.
+c157|19|v|accident|사고|el accidente|o acidente|事故~shìgù|der Unfall|l'incidente
+c158|19|v|police|경찰|la policía|a polícia|警察~jǐngchá|die Polizei|la polizia
+c159|19|v|fire (blaze)|화재|el incendio|o incêndio|火灾~huǒzāi~火災|der Brand|l'incendio
+c160|19|v|dangerous|위험하다|peligroso|perigoso|危险~wēixiǎn~危險|gefährlich|pericoloso
+c161|19|v|to help|돕다|ayudar|ajudar|帮助~bāngzhù~幫助|helfen|aiutare
+c162|19|s|Call an ambulance!|구급차를 불러 주세요!|¡Llame a una ambulancia!|Chame uma ambulância!|快叫救护车！~kuài jiào jiùhùchē~快叫救護車！|Rufen Sie einen Krankenwagen!|Chiami un'ambulanza!
+c163|20|v|parents|부모님|los padres|os pais|父母~fùmǔ|die Eltern|i genitori
+c164|20|v|children|아이들|los niños|as crianças|孩子~háizi|die Kinder|i bambini
+c165|20|v|community|공동체|la comunidad|a comunidade|社区~shèqū~社區|die Gemeinschaft|la comunità
+c166|20|v|to celebrate|축하하다|celebrar|comemorar|庆祝~qìngzhù~慶祝|feiern|festeggiare
+c167|20|v|tradition|전통|la tradición|a tradição|传统~chuántǒng~傳統|die Tradition|la tradizione
+c168|20|s|We celebrate the holidays with the whole family.|우리는 온 가족과 함께 명절을 보내요.|Celebramos las fiestas con toda la familia.|Comemoramos as festas com toda a família.|我们和全家人一起过节。~wǒmen hé quánjiārén yìqǐ guòjié~我們和全家人一起過節。|Wir feiern die Feiertage mit der ganzen Familie.|Festeggiamo le feste con tutta la famiglia.

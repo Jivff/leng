@@ -1,0 +1,59 @@
+{
+  "_format": "[name, url, levels, skills (R reading, L listening, W writing, S speaking, G grammar, V vocabulary), format, note]",
+  "ko": [
+    ["How to Study Korean","https://www.howtostudykorean.com/","A1-C1","GVR","course","Very thorough free grammar course in units, with vocabulary lists and audio."],
+    ["Talk To Me In Korean","https://talktomeinkorean.com/","A1-B2","GL","course / podcast","Short, friendly grammar lessons; the core curriculum is free."],
+    ["Go! Billy Korean","https://www.youtube.com/@GoBillyKorean","A1-B2","GL","video","Clear grammar explanations and a full beginner course."],
+    ["Didi's Korean Podcast","https://www.youtube.com/@DidiKoreanPodcast","A2-B2","L","podcast","Slow, natural Korean on everyday topics; good for maintenance listening."],
+    ["Naver Dictionary","https://korean.dict.naver.com/koendict/","A1-C2","V","dictionary","Best Korean-English dictionary, with example sentences and audio."],
+    ["TOPIK past papers","https://www.topik.go.kr/","A2-C1","RLW","tests","Official exam site; past papers are a realistic level check."],
+    ["KBS News","https://news.kbs.co.kr/","B2-C2","RL","news","Authentic news video with transcripts for advanced maintenance."]
+  ],
+  "es": [
+    ["Dreaming Spanish","https://www.dreamingspanish.com/","A1-C1","L","video","Comprehensible-input videos graded by level; Spain and Latin American speakers."],
+    ["Language Transfer: Complete Spanish","https://www.languagetransfer.org/complete-spanish","A1-B1","GS","audio course","Free audio course that builds sentences from the start; excellent for speaking."],
+    ["StudySpanish.com","https://studyspanish.com/grammar","A1-B2","G","course","Grammar units with quizzes."],
+    ["Notes in Spanish","https://www.notesinspanish.com/","A2-C1","L","podcast","Real conversations from Madrid at three levels."],
+    ["Radio Ambulante","https://radioambulante.org/","B2-C2","LR","podcast","Latin American stories with full transcripts."],
+    ["SpanishDict","https://www.spanishdict.com/","A1-C2","VG","dictionary","Dictionary, conjugator and regional usage notes."],
+    ["RTVE Play","https://www.rtve.es/play/","B1-C2","L","video","Free Spanish television, news and series."],
+    ["Español con Juan","https://www.youtube.com/@espanolconjuan","A2-B2","L","video","Entertaining intermediate input, entirely in Spanish."]
+  ],
+  "pt": [
+    ["Speaking Brazilian","https://www.speakingbrazilian.com/","A1-B2","GLS","video / podcast","Brazilian Portuguese lessons on grammar, pronunciation and usage."],
+    ["Easy Portuguese","https://www.youtube.com/@EasyPortuguese","A2-B2","L","video","Street interviews with subtitles in Portuguese and English."],
+    ["Fala Gringo","https://falagringo.com/","B1-B2","L","podcast","Intermediate podcast about Brazilian culture, with transcripts."],
+    ["Semantica","https://www.semantica-portuguese.com/","A1-B1","LG","video course","Story-based Brazilian Portuguese video lessons (some free)."],
+    ["Conjuga-me","https://www.conjuga-me.net/","A1-C2","G","reference","Verb conjugator for Portuguese."],
+    ["G1 Notícias","https://g1.globo.com/","B2-C2","R","news","Brazil's main news site for authentic reading."],
+    ["Porta dos Fundos","https://www.youtube.com/@portadosfundos","B2-C2","L","video","Comedy sketches: fast, colloquial Brazilian Portuguese."]
+  ],
+  "zh": [
+    ["Chinese Grammar Wiki","https://resources.allsetlearning.com/chinese/grammar/","A1-C1","G","reference","Every grammar point by level with many examples."],
+    ["Mandarin Corner","https://mandarincorner.org/","A1-B2","LV","video","HSK vocabulary videos and street interviews with pinyin and subtitles."],
+    ["Chinese Zero to Hero","https://www.youtube.com/@ChineseZeroToHero","A1-B2","GL","video","Structured HSK courses."],
+    ["Comprehensible Chinese","https://www.youtube.com/@ComprehensibleChinese","A1-B1","L","video","Comprehensible-input stories for beginners."],
+    ["Du Chinese","https://duchinese.net/","A1-C1","RL","graded reader","Graded reading with audio; part of the library is free."],
+    ["MDBG Dictionary","https://www.mdbg.net/chinese/dictionary","A1-C2","V","dictionary","Dictionary with stroke order, simplified and traditional."],
+    ["Arch Chinese","https://www.archchinese.com/","A1-B2","W","tool","Printable handwriting worksheets and stroke order."],
+    ["Tea Time Chinese","https://www.teatimechinese.com/","B1-B2","L","podcast","Slow intermediate podcast with transcripts."]
+  ],
+  "de": [
+    ["DW Learn German (Nicos Weg)","https://learngerman.dw.com/","A1-B1","LRGV","course","Complete free video course by level."],
+    ["Easy German","https://www.easygerman.org/","A2-C1","L","video / podcast","Street interviews with double subtitles."],
+    ["Language Transfer: Complete German","https://www.languagetransfer.org/","A1-B1","GS","audio course","Thinking-based audio course."],
+    ["Slow German","https://slowgerman.com/","A2-B2","LR","podcast","Slowly spoken episodes with transcripts."],
+    ["Nachrichtenleicht","https://www.nachrichtenleicht.de/","A2-B1","RL","news","Weekly news in simple German with audio."],
+    ["Your Daily German","https://yourdailygerman.com/","A2-C1","GV","blog","Deep, readable explanations of grammar and word families."],
+    ["dict.cc","https://www.dict.cc/","A1-C2","V","dictionary","German-English dictionary."]
+  ],
+  "it": [
+    ["Language Transfer: Introduction to Italian","https://www.languagetransfer.org/","A1-A2","GS","audio course","Free audio introduction built on speaking."],
+    ["Learn Italian with Lucrezia","https://www.youtube.com/@lucreziaoddone","A1-B2","LG","video","Lessons and vlogs in clear Italian."],
+    ["Easy Italian","https://www.easyitalian.fm/","A2-B2","L","podcast","Conversational podcast with transcripts."],
+    ["Podcast Italiano","https://podcastitaliano.com/","A2-C1","LR","podcast","Graded episodes with transcripts."],
+    ["One World Italiano","https://www.oneworlditaliano.com/","A1-B2","GRL","course","Free course with exercises."],
+    ["RaiPlay","https://www.raiplay.it/","B1-C2","L","video","Italian public television."],
+    ["WordReference","https://www.wordreference.com/iten/","A1-C2","V","dictionary","Dictionary, conjugator and forums."]
+  ]
+}
