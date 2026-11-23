@@ -152,20 +152,26 @@ test('assessment staircase', () => {
 function fakeGitHub() {
   const files = new Map(); let n = 0;
   const json = (status, body) => ({ status, ok: status < 300, json: async () => body, text: async () => (typeof body === 'string' ? body : JSON.stringify(body)) });
+  const state = { staleTree: null };
   const api = async (url, opt = {}) => {
     const path = url.replace('https://api.github.com/repos/me/data', '');
     if (path === '') return json(200, { default_branch: 'main' });
-    if (path.startsWith('/git/trees/')) return files.size ? json(200, { tree: [...files].map(([p, f]) => ({ path: p, type: 'blob', sha: f.sha })) }) : json(409, {});
+    if (path.startsWith('/git/trees/')) {
+      const list = state.staleTree || [...files].map(([p, f]) => ({ path: p, type: 'blob', sha: f.sha }));
+      return list.length ? json(200, { tree: list }) : json(409, {});
+    }
     const p = path.replace('/contents/', '');
     if (opt.method === 'PUT') {
       const b = JSON.parse(opt.body); const cur = files.get(p);
+      if (cur && !b.sha) return json(422, { message: '"sha" wasn\'t supplied.' });
       if (cur && cur.sha !== b.sha) return json(409, {});
       const sha = `sha${++n}`; files.set(p, { sha, text: Buffer.from(b.content, 'base64').toString('utf8') });
       return json(200, { content: { sha } });
     }
-    return files.has(p) ? json(200, files.get(p).text) : json(404, {});
+    if (!files.has(p)) return json(404, {});
+    return (opt.headers?.Accept || '').includes('object') ? json(200, { sha: files.get(p).sha }) : json(200, files.get(p).text);
   };
-  return { api, files };
+  return { api, files, state };
 }
 
 test('sync: two devices merge reviews, ticks and read the Claude inbox', async () => {
@@ -196,4 +202,29 @@ test('sync: two devices merge reviews, ticks and read the Claude inbox', async (
   const r2 = await syncAll(A, ca, { fetchImpl: gh.api });
   assert.deepEqual(r2.inbox, ['inbox/feedback.json']); assert.equal(A.inbox['inbox/feedback.json'][0].level, 'A2');
   assert.deepEqual(mergeLang(emptyLang(), null), emptyLang());
+});
+
+test('sync: recovers when GitHub returns an out-of-date file list (422)', async () => {
+  const gh = fakeGitHub();
+  const A = mkState(); const ca = { owner: 'me', repo: 'data', token: 't', shas: {}, dirty: {} };
+  gh.files.set('README.md', { sha: 'r0', text: '# data' });
+  const before = [{ path: 'README.md', type: 'blob', sha: 'r0' }];
+  const it = items.es[0];
+  introduce(A.langs.es, it, T0); grade(A.langs.es, `${it.id}:recognize`, 3, { now: T0 });
+  await syncAll(A, ca, { fetchImpl: gh.api, summary: () => ({ ok: 1 }) });
+  assert.ok(gh.files.has('profile.json') && gh.files.has('summary.json'));
+  // a second device (or the same one after "Save and sync" reset its memory) sees a stale list
+  const B = mkState(); B.profile.u = T0 + 1; B.profile.dailyMinutes = 50;
+  const cb = { owner: 'me', repo: 'data', token: 't', shas: {}, dirty: { profile: true } };
+  gh.state.staleTree = before;
+  const r = await syncAll(B, cb, { fetchImpl: gh.api, summary: () => ({ ok: 2 }) });
+  gh.state.staleTree = null;
+  assert.ok(r.pushed.includes('profile.json'));
+  assert.equal(B.langs.es.log.length, 1, 'remote reviews merged in during recovery');
+  assert.equal(JSON.parse(gh.files.get('profile.json').text).dailyMinutes, 50, 'newer profile wins');
+  assert.equal(JSON.parse(gh.files.get('state/es.json').text).log.length, 1, 'no reviews lost');
+  assert.equal(JSON.parse(gh.files.get('summary.json').text).ok, 2);
+  // and a normal sync afterwards is clean
+  const r2 = await syncAll(B, cb, { fetchImpl: gh.api });
+  assert.equal(r2.pushed.length, 0);
 });
