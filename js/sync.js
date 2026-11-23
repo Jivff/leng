@@ -29,7 +29,9 @@ export class GitHub {
     this.token = token; this.fetch = fetchImpl || ((...a) => fetch(...a));
   }
   async req(path, opt = {}) {
-    const res = await this.fetch(this.base + path, { ...opt, headers: { Authorization: `Bearer ${this.token}`, Accept: 'application/vnd.github+json', 'X-GitHub-Api-Version': '2022-11-28', ...(opt.headers || {}) } });
+    // no-store: GitHub's API responses are cacheable for 60 s, and a stale file list makes the app
+    // try to create files that already exist (GitHub then answers 422)
+    const res = await this.fetch(this.base + path, { cache: 'no-store', ...opt, headers: { Authorization: `Bearer ${this.token}`, Accept: 'application/vnd.github+json', 'X-GitHub-Api-Version': '2022-11-28', ...(opt.headers || {}) } });
     return res;
   }
   /** Map of path -> blob sha for the whole repository ({} when the repository is empty). */
@@ -47,10 +49,17 @@ export class GitHub {
     return out;
   }
   async get(path) {
-    const r = await this.req(`/contents/${path}`, { headers: { Accept: 'application/vnd.github.raw+json' }, cache: 'no-store' });
+    const r = await this.req(`/contents/${path}`, { headers: { Accept: 'application/vnd.github.raw+json' } });
     if (r.status === 404) return null;
     if (!r.ok) throw new Error(`GitHub error ${r.status} reading ${path}`);
     try { return JSON.parse(await r.text()); } catch { return null; }
+  }
+  /** Current blob sha of a file, or null when it does not exist. */
+  async sha(path) {
+    const r = await this.req(`/contents/${path}`, { headers: { Accept: 'application/vnd.github.object+json' } });
+    if (r.status === 404) return null;
+    if (!r.ok) throw new Error(`GitHub error ${r.status} reading ${path}`);
+    return (await r.json()).sha || null;
   }
   async put(path, obj, sha) {
     const body = { message: `sync ${path}`, content: b64(JSON.stringify(obj)) };
@@ -97,13 +106,27 @@ export async function syncAll(state, cfg, { fetchImpl, summary } = {}) {
       known[f.path] = remoteSha;
     }
     if (needPush) {
-      known[f.path] = await gh.put(f.path, local, remoteSha);
+      try {
+        known[f.path] = await gh.put(f.path, local, remoteSha);
+      } catch (e) {
+        if (!e.conflict) throw e;
+        // the file list was out of date: fetch the file as it is now, merge, and write once more
+        const sha = await gh.sha(f.path);
+        const remote = sha ? await gh.get(f.path) : null;
+        const merged = remote ? f.merge(local, remote) : local;
+        if (JSON.stringify(merged) !== JSON.stringify(local)) { f.set(merged); local = merged; res.pulled.push(f.path); res.changedKeys.push(f.key); }
+        known[f.path] = await gh.put(f.path, local, sha);
+      }
       res.pushed.push(f.path);
     }
     delete dirty[f.key];
   }
   if (summary && res.pushed.length) {
-    known['summary.json'] = await gh.put('summary.json', summary(), tree['summary.json']);
+    const sum = summary();
+    try { known['summary.json'] = await gh.put('summary.json', sum, tree['summary.json']); } catch (e) {
+      if (!e.conflict) throw e;
+      known['summary.json'] = await gh.put('summary.json', sum, await gh.sha('summary.json'));
+    }
   }
   // read-only inbox written by the scheduled Claude task
   state.inbox = state.inbox || {};
